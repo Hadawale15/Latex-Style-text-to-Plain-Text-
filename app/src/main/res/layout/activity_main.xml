@@ -4,13 +4,19 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
     tools:context=".MainActivity">
+
+
+
+
 
     <ru.noties.jlatexmath.JLatexMathView
         android:id="@+id/j_latex_math_view"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
 
-        app:jlmv_textSize="20sp" />
+        app:jlmv_textSize="25sp"
+        app:jlmv_textColor="#6E0808" />
 
 </LinearLayout>
